@@ -1,103 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Twinkle+Star&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Twinkle+Star&display=swap");
 
-*{
-    margin: auto;
+* {
+  margin: auto;
 }
 
 header {
-    background: #87d36f;
-    text-align: center;
-    margin-bottom: 20px;
-    border: solid 1px #0000;
-    padding: 50px;
+  background: #87d36f;
+  text-align: center;
+  margin-bottom: 20px;
+  border: solid 1px #0000;
+  padding: 50px;
 }
 
-h1{
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 60px;
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 60px;
 }
-h2{
-      font-family: "Merriweather Sans", sans-serif;
+h2,
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
 }
-
-
 
 p {
-     color: #920692;
-     font-family: "Merriweather Sans", sans-serif;
-  }
+  color: #380c7e;
+  font-family: "Merriweather Sans", sans-serif;
+}
 
- #foto-perfil{
-    width: 300px;
-    border-radius:20px;
-    float: right;
- }
+.bi{
+    color: #654c0c;
+}
 
- main{
+#menu-principal {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+
+nav{
     overflow: hidden;
+    padding: 20PX 0;
+}
 
- }
- section{
-    overflow: hidden;
- }
-
- #Proyectos{
-    padding: 20px 30px;
-    border-top: solid 5px #5ec3d7;
-    margin-top: 30px;
-    text-align: center;
-    margin-top: 30px;
- }
-
- .proyecto {
-    float: left;
-    margin-top: 30px;
-    width: 33%
+#menu-principal{
+    text-decoration:none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:#9a0d9a 
     
- }
-
- .proyecto img{
-    width: 90%;
-    border-radius: 15px;
-    
- }
-
- .proyecto p{
-    text-align: justify;
-    padding: 10px 20px;
-    
- }
-
-.proyecto h3{
-    color: #05be87
 }
 
-#habilidades{
-    overflow: hidden;
-    margin-top: 20px;
-    padding: 20px;
-    border-top: solid 5px #dddddd;
-    margin-bottom: 30px;
-}
-
-progress{
-    width: 100%;
-    height: 25px;
-    border-radius: 5px;
-    margin: 10px 0;
-}
-
-.lista-tegnologias{
-    list-style: none;
-    display: grid;
-    margin-left: 0;
-    gap:15px;
-}
-
-.lista-tegnologias li{
-    background-color: #1eabb3;
+#menu-principal a:hover{
     color: #ffffff;
-    padding: 12px 20px;
-    border-radius: 25px;
+    background-color: #000000;
+    padding: 25px;
+    text-decoration:none;
+}
+
+
+#foto-perfil {
+  width: 300px;
+  border-radius: 20px;
+  float: right;
+}
+
+main {
+  overflow: hidden;
+}
+section {
+  overflow: hidden;
+}
+
+#Proyectos {
+  padding: 20px 30px;
+  border-top: solid 5px #5ec3d7;
+  margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#lista-proyectos {
+  display: flex;
+}
+
+.proyecto {
+  margin-top: 30px;
+  width: 33%;
+}
+
+.proyecto img {
+  width: 90%;
+  border-radius: 15px;
+}
+
+.proyecto p {
+  text-align: justify;
+  padding: 20px 20px;
+}
+
+.proyecto h3 {
+  color: #05be87;
+}
+
+#habilidades {
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: solid 5px #dddddd;
+  margin-bottom: 30px;
+}
+
+progress {
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.lista-tegnologias {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  gap: -100px;
+}
+
+.lista-tegnologias li {
+  background-color: #1eabb3;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#contacto{
+    padding: 40px;
+}
+
+.campos{
+    padding: 1%;
+    clear: both;
+    font-size: 28px;
+}
+
+.campos label{
+    padding-right: 20px;
+
+}
+.campos input{
+    padding: 10px;
+    border: solid 2px #1eabb3;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+footer{
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: #c0ad4d;
     text-align: center;
+    border-top: solid 5px #000000;
 }
